@@ -1,0 +1,51 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTeste {
+
+	@Test
+	//Teste de Soma
+	public void testeSomar3com2() {
+		Calculadora calc = new Calculadora();
+		
+		double resultadoReal = calc.somar(3, 2);
+		double resultadoEsperado = 5;
+		assertEquals(resultadoReal, resultadoEsperado, 2);
+		
+	}
+
+	@Test
+	//Teste de Soma
+		public void testeSomar3ponto5com2pont5() {
+			Calculadora calc = new Calculadora();
+			
+			double resultadoReal = calc.somar(3.5, 2.5);
+			double resultadoEsperado = 6;
+			assertEquals(resultadoReal, resultadoEsperado, 0);
+			
+		}
+
+	@Test
+	//Teste de Subtração
+	public void testeSubtrair2ponto5de3ponto5() {
+		Calculadora calc = new Calculadora();
+		
+		double resultadoReal = calc.subtrair(3.5, 2.5);
+		double resultadoEsperado = 1;
+		assertEquals(resultadoReal, resultadoEsperado, 0);
+	}
+	
+	
+	@Test
+	//Teste de divisão
+	public void testeDividir6por2() {
+		Calculadora calc = new Calculadora();
+		
+		double resultadoReal = calc.dividir(2, 6);
+		double resultadoEsperado = 3;
+		assertEquals(resultadoReal, resultadoEsperado, 0);
+	}
+		
+		
+}

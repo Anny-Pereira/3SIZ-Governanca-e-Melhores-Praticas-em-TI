@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		public double somar(double n1, double n2) {
+			return n1 + n2;
+		}
+		
+		 double subtrair(double n1, double n2) {
+			return n1 - n2;
+		}
+		
+		public double multiplicar(double n1, double n2) {
+			return n1 * n2;
+		}
+		
+		public double dividir(double n1, double n2) {
+			return n1 / n2;
+		}
+		
+	}
+

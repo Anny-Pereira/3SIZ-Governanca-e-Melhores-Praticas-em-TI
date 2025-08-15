@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTeste {
+
+	@Test
+	//Teste de Soma
+	public void testeSomar3com2() {
+		Calculadora calc = new Calculadora();
+		
+		double resultadoReal = calc.somar(3, 2);
+		double resultadoEsperado = 5;
+		assertEquals(resultadoReal, resultadoEsperado, 2);
+		
+	}
+
+	
+	//Teste de Soma
+		public void testeSomar3ponto5com2pont5() {
+			Calculadora calc = new Calculadora();
+			
+			double resultadoReal = calc.somar(3.5, 2.5);
+			double resultadoEsperado = 6;
+			assertEquals(resultadoReal, resultadoEsperado, 2);
+			
+		}
+
+		
+		
+}
