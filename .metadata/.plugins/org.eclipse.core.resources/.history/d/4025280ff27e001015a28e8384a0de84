@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import Fontes.MensagemBoasVindas;
+
+public class MensagemBoasVindasTeste {
+
+	@Test
+	public void TesteRetornoMensagensJose() {
+		MensagemBoasVindas msg = new MensagemBoasVindas();
+		String msgRetornoReal = msg.geraMensagem("Jose");
+		String msgRetornoEsperado = "Seja bem vindo(a), Jose";
+		assertEquals(msgRetornoReal, msgRetornoEsperado);
+		
+	}
+
+}
