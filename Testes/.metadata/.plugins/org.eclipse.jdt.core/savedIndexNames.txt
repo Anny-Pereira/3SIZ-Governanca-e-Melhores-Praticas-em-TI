@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\labsfiap\Downloads\3SIZ-Governanca-e-Melhores-Praticas-em-TI\Testes\.metadata\.plugins\org.eclipse.jdt.core
+2279265663.index
+1865797976.index
+3889104243.index
+3758927872.index
+1650449417.index
